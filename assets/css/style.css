@@ -1,0 +1,67 @@
+body{
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(51, 30, 0, 0.75), rgb(0, 0, 0, 0.75)), url("./images/background.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 100%;
+}
+/* Background image: I can't read sheet music so I'm not sure what the song is, but it worked for the aesthetic I wanted. */
+/* [ArtsyBee]. (2015, August 29). Vintage Parchment JPEG. Pixabay. https://pixabay.com/illustrations/background-old-vintage-parchment-910412/ */
+@font-face {
+    font-family: "BaroqueScript";
+    src: url(./fonts/BaroqueScript.ttf);
+}
+/* Reyes Galvez, Jose. (n.d.). Baroque Script. 1001 Free Fonts. (https://www.1001freefonts.com/baroque-script.font */
+h1, h2, h3{
+    text-align: center;
+    font-family: "BaroqueScript";
+}
+#styledImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    text-align: center;
+    font-family: Gabriola;
+    font-weight: bold;
+    font-size: x-large;
+}
+.styledList{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    position: relative;
+    display: inline-block;
+    padding: 1em;
+    padding-left: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Gabriola;
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgba(95, 78, 51, 0.45);
+}
+.styledTable, th, td{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Gabriola;
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: rgba(95, 78, 51, 0.25);
+}
+#styledVideo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.references{
+    display: block;
+    text-align: center;
+}
